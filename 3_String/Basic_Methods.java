@@ -1,5 +1,3 @@
-package Java.string;
-
 public class Basic_Methods {
     public static void main(String[] args){
         // String Declaration
