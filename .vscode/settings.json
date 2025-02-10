@@ -3,7 +3,8 @@
         "Java\\3_String",
         "Java\\1_First-program",
         "Java\\2_Variable_DataType",
-        "Java\\3_CondtionalStatement_loops"
+        "Java\\3_CondtionalStatement_loops",
+        "Java\\Function"
     ],
     "java.project.referencedLibraries": []
 }
