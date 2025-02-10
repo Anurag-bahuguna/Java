@@ -3,12 +3,12 @@ public class statics {
         System.out.println("add fun");
     }
 
-    static sub(){
+    static void sub(){
         System.out.println("aub fun");
     }
     public static void main(String[] args) {
         statics s = new statics();
         s.add();
-
+        sub();
     }
 }
