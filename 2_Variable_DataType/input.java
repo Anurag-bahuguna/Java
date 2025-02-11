@@ -5,9 +5,11 @@ public class input {
         //input
         Scanner sc= new Scanner(System.in);
         String name = sc.nextLine();
+        String gender = sc.next();
         int age = sc.nextInt();
 
         System.out.println(name);
+        System.out.println(gender);
         System.out.println(age);
 
         //taking 2 numbers from user and adding them

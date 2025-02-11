@@ -7,15 +7,30 @@ public class condition_2 {
         System.out.println("Enter a number:");
         int num = sc.nextInt();
 //1 way
+        // if(num < 0){
+        //     System.out.println("Number is negative");
+        // } else {
+        //     System.out.println("Number is positive");
+        // }
+        // if(num % 2 == 0){
+        //     System.out.println("Number is even");
+        // } else {
+        //     System.out.println("Number is odd");
+        // }
+
+// way 2
         if(num < 0){
             System.out.println("Number is negative");
-        } else {
+        } else if(num > 0){
             System.out.println("Number is positive");
-        }
-        if(num % 2 == 0){
-            System.out.println("Number is even");
+            if(num % 2 == 0){
+                System.out.println("Number is even");
+            } else {
+                System.out.println("Number is odd");
+            }
         } else {
-            System.out.println("Number is odd");
+            System.out.println("Number is zero");
         }
     }
+    
 }
