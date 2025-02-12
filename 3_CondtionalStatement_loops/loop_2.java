@@ -1,3 +1,5 @@
+// WAP to print table of a number n using for loop.
+
 import java.util.*;
 
 public class loop_2 {
