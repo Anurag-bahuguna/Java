@@ -42,6 +42,35 @@
 
 //2. Multilevel Inheritance
 
+// class shape{
+//     public void area(){
+//         System.out.println("display area");
+//     }
+// }
+
+// class tringle extends shape{
+//     public void area(int l,int h){
+//         System.out.println(0.5*l*h);
+//     }
+// }
+
+// class equi_tringle extends tringle{
+//     public void area(){
+//         System.out.println("display result area of tringle1");
+//     }
+// }
+
+// public class oops_6 {
+//     public static void main(String[] args) {
+//         tringle t1 = new tringle();
+//         // check it agai
+//         t1.area(10, 20);
+//         t1.area();
+        
+//     }
+// }
+
+//3. Hierarchical Inheritance
 class shape{
     public void area(){
         System.out.println("display area");
@@ -54,18 +83,19 @@ class tringle extends shape{
     }
 }
 
-class equi_tringle extends tringle{
-    public void area(){
-        System.out.println("display result area of tringle1");
+class circle extends shape{
+    public void area(int r){
+        System.out.println(3.14*r*r);
     }
 }
 
 public class oops_6 {
     public static void main(String[] args) {
         tringle t1 = new tringle();
-        // check it again
+        // check it agai
         t1.area(10, 20);
         t1.area();
         
     }
 }
+//4. Hybrid Inheritance
