@@ -1,7 +1,7 @@
 // 1.overloading
 // 2.overriding
 
-// 2.
+// 2.overriding and method overriding
 package Java.Polymorphism;
 class A{
     void show(){
