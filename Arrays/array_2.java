@@ -21,5 +21,20 @@ public class array_2 {
             }
             System.out.println();
         }
+
+        //2D array using enhanced for loop
+        int arr2[][] = new int[3][3];
+        int x= 1;
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < 3; j++){
+                k[i][j] = x++;
+            }
+        }
+        for (int i[] : arr2) {
+            for (int j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
     }
 }
