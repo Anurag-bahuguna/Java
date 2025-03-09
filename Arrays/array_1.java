@@ -13,26 +13,27 @@ public class array_1 {
 
 //Syntax 1
     //array literal         
-        // int x[] = {1,4,3,7}; 
-        // System.out.println(x[0]); //print position 0
-        // System.out.println(x[1]); //print position 1
+        int x[] = {1,4,3,7}; 
+        System.out.println(x[0]); //print position 0
+        System.out.println(x[1]); //print position 1
 
-        // for(int i = 0; i < 4; i++){     //print all the elements of array
-        //     System.out.println(x[i]);
-        // }
+        for(int i = 0; i < 4; i++){     //print all the elements of array
+            System.out.println(x[i]);
+        }
     
 //Syntax 2
     //new keyword
         //because an array is an object in java, we can create an array using new keyword.
-        int x[] = new int[4]; //declaration and instantiation
-        // x[0] = 4; //initialization
-        // x[1] = 7;
-        // x[2] = 3;
+        int y[] = new int[4]; //declaration and instantiation
+        y[0] = 4; //initialization
+        y[1] = 7;
+        y[2] = 3;
 
     //if we want to print 1 to 4 numbers sequentially
+        int z[] = new int[4];
         for(int i = 0; i < 4; i++){
-            x[i] = i+1;
-            System.out.println(x[i]);
+            z[i] = i+1;
+            System.out.println(z[i]);
         }        
     }
 }
