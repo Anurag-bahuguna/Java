@@ -7,6 +7,7 @@ class parent{
         System.out.println("in parent");
     }
 }
+
 class child extends parent{
     void display(){
         System.out.println("in child");
@@ -19,6 +20,7 @@ class child extends parent{
         }
     }
 }
+
 class derived_4 {
     public static void main(String[] agrs){
         child c = new child();
