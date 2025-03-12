@@ -12,6 +12,7 @@ public class single_ton {
         // obj1.show();
     }
 }
+
 // class A is single ton class
 class A{
     int i;
