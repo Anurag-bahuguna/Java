@@ -10,6 +10,5 @@ public class except_3 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         s = br.readLine();
         System.out.println(s);
-
     }
 }
