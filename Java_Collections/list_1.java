@@ -15,8 +15,20 @@ public class list_1 {
         System.out.println("list: " + l);
         System.out.println("element at index 1: " + l.get(1));
 
+        l.set(1, 15);   //set element at index 1
+        System.out.println("list after setting element at index 1: " + l);
+
+        l.remove(2);    //remove element at index 2
+        System.out.println("list after removing element at index 2: " + l);
         for(Object i : l) {     //for each loop
             System.out.println(i);
         }
+
+        Object arr[] = l.toArray();     //convert list to array
+        for(Object i : arr) {
+            System.out.println(i);
+        }
     }
+
+    
 }
