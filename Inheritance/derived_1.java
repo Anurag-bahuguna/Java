@@ -5,6 +5,7 @@ class base {
         System.out.println("in base");
     }    
 }
+
 class derived_1 extends base{
     derived_1(){
         System.out.println("in derived");
