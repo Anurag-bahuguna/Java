@@ -8,6 +8,7 @@ class base {
         System.out.println(num);
     }    
 }
+
 class derived_2 extends base{
     derived_2(){
         super(10);
