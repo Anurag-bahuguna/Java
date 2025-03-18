@@ -18,7 +18,14 @@ public class Db_2 {
         try{
             Connection connection = DriverManager.getConnection(URL, username, password);
             Statement statement = connection.createStatement();
-
+            String query = "select * from student";
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                String sname = resultSet.getString("sname");
+                int rollno = resultSet.getInt("rollno");
+                System.out.println("student name: "+sname);
+                System.out.println("student rollno: "+rollno);
+            }
 
         }catch (SQLException e){
             System.out.println(e.getMessage());
