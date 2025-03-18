@@ -14,5 +14,14 @@ public class Db_2 {
             // e.printStackTrace(); OR
             System.out.println(e.getMessage());
         }
+
+        try{
+            Connection connection = DriverManager.getConnection(URL, username, password);
+            Statement statement = connection.createStatement();
+
+
+        }catch (SQLException e){
+            System.out.println(e.getMessage());
+        }
     }
 }
