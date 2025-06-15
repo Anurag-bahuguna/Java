@@ -15,3 +15,8 @@ public class variable_dataType {
         System.out.println("Value of e: " + e);
     }  
 }
+
+// WRITE A PROGRAM OF TYPES OF VARIABLES IN JAVA
+// 1. Local Variable
+// 2. Instance Variable 
+// 3. Static Variable

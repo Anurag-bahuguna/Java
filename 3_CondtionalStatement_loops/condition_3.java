@@ -18,3 +18,5 @@ public class condition_3 {
         }
     }
 }
+
+// also write a prog for nasted if
