@@ -5,3 +5,4 @@ public class output {
         System.out.print("I am a student");
     }
 }
+
