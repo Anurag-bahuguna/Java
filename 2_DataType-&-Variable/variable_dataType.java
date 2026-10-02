@@ -20,3 +20,4 @@ public class variable_dataType {
 // 1. Local Variable
 // 2. Instance Variable 
 // 3. Static Variable
+
